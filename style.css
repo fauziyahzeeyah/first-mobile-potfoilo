@@ -4,11 +4,17 @@
   text-decoration: none;
   list-style: none;
 }
+
+body {
+  background-color: #e5e5e5;
+}
+
 .headline {
   height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .nav-links {
@@ -134,8 +140,10 @@
   flex-direction: column;
   background-image: url("./images/header-shapes mobile.png");
   background-repeat: no-repeat;
+  background-color: white;
   width: 375px;
   height: 718px;
+  border-bottom-left-radius: 70px;
 }
 
 .intro-paragraph h1 {
